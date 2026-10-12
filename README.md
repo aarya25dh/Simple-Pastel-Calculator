@@ -1,12 +1,12 @@
-# ✦ Pastel Calculator
+# Pastel Calculator
 
-A cute, clean, and beginner-friendly calculator built with **HTML, CSS, and vanilla JavaScript only**.
+A simple, clean, and beginner-friendly calculator built with **HTML, CSS, and vanilla JavaScript only**.
 
 Features a soft pastel lavender and blush pink theme with a simple, readable layout that is easy to understand and maintain.
 
 ---
 
-## ✨ Features
+## Features
 
 - **Basic Arithmetic**: Addition (`+`), Subtraction (`−`), Multiplication (`×`), and Division (`÷`).
 - **Helpful Operations**:
@@ -25,25 +25,10 @@ Features a soft pastel lavender and blush pink theme with a simple, readable lay
   - Calculate with `Enter` or `=`
   - Delete with `Backspace`
   - Clear with `Escape`
-- **Simple & Reliable Logic**:
-  - No `eval()` used.
-  - Safe division by zero handling with a friendly message.
-  - Automatic rounding for floating-point issues (e.g. `0.1 + 0.2 = 0.3`).
-  - Easy recovery from error states by pressing any number or `AC`.
-
+  - 
 ---
 
-## 🎨 Color Palette
-
-- **Background**: Soft pastel gradient (`#f8f3fa` to `#fdf5f8`).
-- **Number Buttons**: Crisp white with subtle lilac borders.
-- **Operator Buttons**: Soft lilac (`#eedff7`) with deep purple text (`#593375`).
-- **Action Buttons (`AC`, `DEL`, `+/-`, `%`)**: Soft blush pink (`#fde8ee`) with dark pink text (`#8b344f`).
-- **Equals Button**: Lavender accent (`#b58fe6`) with white text.
-
----
-
-## 📁 File Structure
+## File Structure
 
 - `index.html` - Clean, semantic markup with straightforward button elements.
 - `style.css` - Simple CSS Grid layout with soft colors and rounded styling.
