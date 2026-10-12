@@ -4,8 +4,6 @@ A simple, clean, and beginner-friendly calculator built with **HTML, CSS, and va
 
 Features a soft pastel lavender and blush pink theme with a simple, readable layout that is easy to understand and maintain.
 
----
-
 ## Features
 
 - **Basic Arithmetic**: Addition (`+`), Subtraction (`−`), Multiplication (`×`), and Division (`÷`).
@@ -26,8 +24,6 @@ Features a soft pastel lavender and blush pink theme with a simple, readable lay
   - Delete with `Backspace`
   - Clear with `Escape`
 
----
-
 ## File Structure
 
 - `index.html` - Clean, semantic markup with straightforward button elements.
@@ -35,9 +31,7 @@ Features a soft pastel lavender and blush pink theme with a simple, readable lay
 - `script.js` - Straightforward, beginner-friendly JavaScript logic.
 - `README.md` - Project overview and usage guide.
 
----
-
-## 🚀 Running the Project
+## Running the Project
 
 1. Clone or download the files.
 2. Open `index.html` in any web browser.
