@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Pastel Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="calculator">
+      <div class="display">
+        <div class="previous-value"></div>
+        <div class="new-value">0</div>
+      </div>
+
+      <!-- All Buttons-->
+      <div class="buttons">
+        <button class="action-button" onclick="clearAll()">AC</button>
+        <button class="action-button" onclick="deleteDigit()">DEL</button>
+        <button class="action-button" onclick="percentage()">%</button>
+        <button class="operator-button" onclick="chooseOperator('÷')">÷</button>
+
+        <button class="button" onclick="appendNumber('7')">7</button>
+        <button class="button" onclick="appendNumber('8')">8</button>
+        <button class="button" onclick="appendNumber('9')">9</button>
+        <button class="operator-button" onclick="chooseOperator('×')">×</button>
+
+        <button class="button" onclick="appendNumber('4')">4</button>
+        <button class="button" onclick="appendNumber('5')">5</button>
+        <button class="button" onclick="appendNumber('6')">6</button>
+        <button class="operator-button" onclick="chooseOperator('−')">−</button>
+
+        <button class="button" onclick="appendNumber('1')">1</button>
+        <button class="button" onclick="appendNumber('2')">2</button>
+        <button class="button" onclick="appendNumber('3')">3</button>
+        <button class="operator-button" onclick="chooseOperator('+')">+</button>
+
+        <button class="button" onclick="appendNumber('00')">00</button>
+        <button class="button" onclick="appendNumber('0')">0</button>
+        <button class="button" onclick="appendDecimal()">.</button>
+        <button class="equal-button" onclick="calculate()">=</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
