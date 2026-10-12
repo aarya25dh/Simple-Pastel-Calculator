@@ -25,7 +25,7 @@ Features a soft pastel lavender and blush pink theme with a simple, readable lay
   - Calculate with `Enter` or `=`
   - Delete with `Backspace`
   - Clear with `Escape`
-  - 
+
 ---
 
 ## File Structure
